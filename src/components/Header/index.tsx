@@ -1,6 +1,5 @@
 import * as S from './styles';
 import { useState } from 'react';
-import { AiOutlineUser, AiOutlineUserAdd,AiOutlineMenu } from "react-icons/ai";
 
 export const Header = () => {
     const[openSideBar , setOpenSideBar] = useState(false);
