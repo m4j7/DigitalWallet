@@ -12,8 +12,7 @@ const Login = () => {
     <div className="container">
       <div className="container-login">
         <div className="header">
-          <Header style={{ width: "100%" }}/>
-        </div>
+                  </div>
         <div className="wrap-login">
           <form className="login-form">
             <div className="wrap-input">
