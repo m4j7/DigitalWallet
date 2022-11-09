@@ -6,11 +6,18 @@ export const Header = () => {
     return(
         <header>
             <S.HeaderContainer>
+                <S.Container>
+                    <div className='Olá!'>
+                        <h1>
+                            Olá!
+                        </h1>
+                    </div>
                 <div className='S.Message'>
-                    <h1>
+                    <h2>
                         Seja Bem-Vindo a sua Carteira!
-                    </h1>
+                    </h2>
                 </div>
+                </S.Container>
             </S.HeaderContainer>
     </header>
     )
