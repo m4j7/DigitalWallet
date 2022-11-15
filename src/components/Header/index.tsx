@@ -1,23 +1,17 @@
 import * as S from './styles';
 import { useState } from 'react';
+import { AiOutlineUser, AiOutlineUserAdd,AiOutlineMenu } from "react-icons/ai";
 
 export const Header = () => {
     const[openSideBar , setOpenSideBar] = useState(false);
     return(
         <header>
             <S.HeaderContainer>
-                <S.Container>
-                    <div className='Olá!'>
-                        <h1>
-                            Olá!
-                        </h1>
-                    </div>
-                <div className='Message'>
-                    <h2>
+                <div className='S.Message'>
+                    <h1>
                         Seja Bem-Vindo a sua Carteira!
-                    </h2>
+                    </h1>
                 </div>
-                </S.Container>
             </S.HeaderContainer>
     </header>
     )

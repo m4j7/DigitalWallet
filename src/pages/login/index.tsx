@@ -4,15 +4,15 @@ import "./loginStyle.css";
 import { ButtonComponent } from "../../componentes/button";
 import { TextFieldComponent } from "../../componentes/textfield";
 import { Header } from "../../componentes/header";
+import { HeaderContainer } from "../../componentes/header/styles";
 
 function handleForm() {}
 
 const Login = () => {
   return (
     <div className="container">
+      <HeaderContainer style={{width: "100%"}}/>
       <div className="container-login">
-        <div className="header">
-                  </div>
         <div className="wrap-login">
           <form className="login-form">
             <div className="wrap-input">
